@@ -1,0 +1,120 @@
+body,
+body * {
+    margin: 0%;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     word-break: break-all;
+}
+
+body {
+    background-color: aquamarine;
+    }
+    .container 
+    {
+        display: inline-block;
+        width: 600px;
+        padding: 0;
+        
+        margin-left: calc((100% - 600px) / 2);
+    }
+        .left-column {
+            margin-top: 50px;
+            display: inline-block;
+            width: 39%;
+            background-color: yellow;
+            background-image: url("./kalnas.png");
+            height: 400px;
+            }
+            img {
+
+                display: inline-block;
+                float: left;
+                height: 100%;
+                width: 100%;
+                }
+            .title {
+                display: inline-block;
+                width: 100px;
+                margin-left: 10px;
+                height: 20px;
+                color: white;
+                margin-top: 0;
+               
+            }
+            .footer 
+                   {
+                       
+                   margin-left: 10px;    
+                       
+                   }
+                   .link {
+                       display: inline-block;
+                       margin-top: 350px;
+                       color: white;
+                      
+
+                   }
+                   .ampersand {
+                    display: inline-block;
+                    margin-top: 350px;
+                    color: white;
+
+
+                   }
+        .right-column {
+            display: inline-block;
+            height: 500px;
+            margin-top: 10px;
+            width: 60%;
+            padding: 40px;
+            background-color:white;
+        }
+        .right-column *{
+            display: block;
+        }
+#last *{
+    display: inline-block;
+}
+.label1 {
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: lightblue;
+    background-color: white;
+    
+   
+
+}
+.link2 {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    
+   
+    
+   
+    
+}
+.link3  {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: white;
+    color:blue;
+    text-decoration: none;
+   
+}
+.or {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: white;
+    color: gray;
+    margin-left: 30px;
+}
