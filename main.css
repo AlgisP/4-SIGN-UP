@@ -14,10 +14,10 @@ body {
     .container 
     {
         display: inline-block;
-        width: 600px;
+        width: 800px;
         padding: 0;
         
-        margin-left: calc((100% - 600px) / 2);
+        margin-left: calc((100% - 800px) / 2);
     }
         .left-column {
             margin-top: 50px;
@@ -25,6 +25,7 @@ body {
             width: 39%;
             background-color: yellow;
             background-image: url("./kalnas.png");
+      
             height: 400px;
             }
             img {
@@ -71,6 +72,9 @@ body {
             padding: 40px;
             background-color:white;
         }
+        .close {
+            display: inline-block;
+        }
         .right-column *{
             display: block;
         }
@@ -103,7 +107,7 @@ body {
    
     
 }
-.link3  {
+.bluelink3  {
     display: inline-block;
     margin-top: 30px;
     background-color: white;
